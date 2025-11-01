@@ -138,7 +138,7 @@ Eric Zimmerman’s **MFT Explorer** can parse NTFS files via CLI or GUI.
     ```
     
 
-![1_OjD2B4OrzZkbisI0awEWkw.webp](1_OjD2B4OrzZkbisI0awEWkw.webp)
+![1_OjD2B4OrzZkbisI0awEWkw.png](1_OjD2B4OrzZkbisI0awEWkw.png)
 
 MFTECmd parses data from the different files created by the NTFS file system like $MFT, $Boot, etc. The above screenshot shows the available options for parsing MFT files. 
 
@@ -175,7 +175,7 @@ MFTECmd parses data from the different files created by the NTFS file system lik
 
 This was on line 34, entry number 37:
 
-![1_oe2K2xLtqEgRF1ZkT5W8aA.webp](1_oe2K2xLtqEgRF1ZkT5W8aA.webp)
+![1_oe2K2xLtqEgRF1ZkT5W8aA.png](1_oe2K2xLtqEgRF1ZkT5W8aA.png)
 
 **Answer:** 49152
 
@@ -189,7 +189,7 @@ MFTECmd.exe -f C:\Users\THM-4n6\Desktop\triage\C\$Boot --csv C:\Users\THM-4n6\De
 
 Again, opened it with **EZviewer:**
 
-![1_RYl6uPU4Gr7nHP6KQzctJw.webp](1_RYl6uPU4Gr7nHP6KQzctJw.webp)
+![1_RYl6uPU4Gr7nHP6KQzctJw.png](1_RYl6uPU4Gr7nHP6KQzctJw.png)
 
 **Answer:** 4096
 
@@ -289,7 +289,7 @@ When an application runs, **Windows creates a prefetch file** to speed up future
 
 **Tool Used:** `PECmd.exe` (Prefetch Parser from Eric Zimmerman’s Tools)
 
-![1_zd0JWvAxjCBHEx06kLkA1w.webp](1_zd0JWvAxjCBHEx06kLkA1w.webp)
+![1_zd0JWvAxjCBHEx06kLkA1w.png](1_zd0JWvAxjCBHEx06kLkA1w.png)
 
 **Commands:**
 
@@ -315,7 +315,7 @@ C:\Users\<username>\AppData\Local\ConnectedDevicesPlatform\{randomfolder}\Activi
 
 **Tool Used:** `WxTCmd.exe` (Windows 10 Timeline Parser)
 
-![1_fWM6FgVB95XB5rR1lrTPGw.webp](1_fWM6FgVB95XB5rR1lrTPGw.webp)
+![1_fWM6FgVB95XB5rR1lrTPGw.png](1_fWM6FgVB95XB5rR1lrTPGw.png)
 
 **Command:**
 
@@ -343,7 +343,7 @@ Jump Lists record **recently opened files** for each program pinned to the taskb
 
 **Tool Used:** `JLECmd.exe`
 
-![1_ZjOwx218BBo-1tHDd2CiUQ.webp](1_ZjOwx218BBo-1tHDd2CiUQ.webp)
+![1_ZjOwx218BBo-1tHDd2CiUQ.png](1_ZjOwx218BBo-1tHDd2CiUQ.png)
 
 **Command:**
 
@@ -383,7 +383,7 @@ Therefore `C:\Users\THM-4n6\Desktop\triage\C\Windows\prefetch`= `C:\Windows\pref
 
 Opened the CSV file with **EZviewer**
 
-![1_iycMC6c1l6dDsGanLzM2TA.webp](1_iycMC6c1l6dDsGanLzM2TA.webp)
+![1_iycMC6c1l6dDsGanLzM2TA.png](1_iycMC6c1l6dDsGanLzM2TA.png)
 
 Result found in CSV (column J):
 
@@ -394,7 +394,7 @@ Result found in CSV (column J):
 
 ### **5.2 – What is the last execution time of gkape.exe?**
 
-![1_iwn3YBAJvIkl4csnaqd5Kg.webp](1_iwn3YBAJvIkl4csnaqd5Kg.webp)
+![1_iwn3YBAJvIkl4csnaqd5Kg.png](1_iwn3YBAJvIkl4csnaqd5Kg.png)
 
 Found in the same CSV (column K):
 
@@ -413,7 +413,7 @@ Command used:
 WxTCmd.exe -f C:\Users\THM-4n6\Desktop\triage\C\Users\THM-4n6\AppData\Local\ConnectedDevicesPlatform\L.THM-4n6\ActivitiesCache.db --csv C:\Users\THM-4n6\Desktop
 ```
 
-![1_D_UxKoxBYxdJq6ZcYmOkQg.webp](1_D_UxKoxBYxdJq6ZcYmOkQg.webp)
+![1_D_UxKoxBYxdJq6ZcYmOkQg.png](1_D_UxKoxBYxdJq6ZcYmOkQg.png)
 
 > ✅ Answer: 00:00:41
 > 
@@ -432,7 +432,7 @@ Command used:
 JLECmd.exe -d C:\Users\THM-4n6\Desktop\triage\C\Users\THM-4n6\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations --csv C:\Users\THM-4n6\Desktop
 ```
 
-![1_q1S7nPjNCHmnxOI0bIzFQA.webp](1_q1S7nPjNCHmnxOI0bIzFQA.webp)
+![1_q1S7nPjNCHmnxOI0bIzFQA.png](1_q1S7nPjNCHmnxOI0bIzFQA.png)
 
 > ✅ Answer: Notepad.exe
 > 
@@ -453,7 +453,7 @@ These contain:
 
 **Tool Used:** `LECmd.exe`
 
-![1_LJVsUBPb3CpgXWVzohEY8w.webp](1_LJVsUBPb3CpgXWVzohEY8w.webp)
+![1_LJVsUBPb3CpgXWVzohEY8w.png](1_LJVsUBPb3CpgXWVzohEY8w.png)
 
 **Command:**
 
@@ -484,17 +484,17 @@ C:\Users\<username>\AppData\Local\Microsoft\Windows\WebCache\WebCacheV*.dat
 
 1. Add `triage` folder as a **Logical Files** source.
     
-    ![0_uXnJBgBLDhSCEIdI.webp](0_uXnJBgBLDhSCEIdI.webp)
+    ![0_uXnJBgBLDhSCEIdI.png](0_uXnJBgBLDhSCEIdI.png)
     
-    ![0_eq3wUds1qyGuDT1h.webp](0_eq3wUds1qyGuDT1h.webp)
+    ![0_eq3wUds1qyGuDT1h.png](0_eq3wUds1qyGuDT1h.png)
     
 2. Select **Recent Activity** module.
     
-    ![0_VT6Ftaa4B350sOtE.webp](0_VT6Ftaa4B350sOtE.webp)
+    ![0_VT6Ftaa4B350sOtE.png](0_VT6Ftaa4B350sOtE.png)
     
 3. Check the “Web History” section under **Data Artifacts** for accessed files.
     
-    ![0_iAcYqBISsBvWpcUT.webp](0_iAcYqBISsBvWpcUT.webp)
+    ![0_iAcYqBISsBvWpcUT.png](0_iAcYqBISsBvWpcUT.png)
     
 
 This is what it will look like in the right panel.
@@ -537,7 +537,7 @@ Get this info using jump lists, here’s the command:
 JLECmd.exe -d C:\Users\THM-4n6\Desktop\triage\C\Users\THM-4n6\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations --csv C:\Users\THM-4n6\Desktop
 ```
 
-![1_vjL848ocC8SCzk5_bzc9DA.webp](1_vjL848ocC8SCzk5_bzc9DA.webp)
+![1_vjL848ocC8SCzk5_bzc9DA.png](1_vjL848ocC8SCzk5_bzc9DA.png)
 
 > ✅ Answer: 12/1/2021 13:01
 > 
@@ -546,7 +546,7 @@ JLECmd.exe -d C:\Users\THM-4n6\Desktop\triage\C\Users\THM-4n6\AppData\Roaming\Mi
 
 Same output as the previous questions, just one column over:
 
-![1_-bI7bay3V6hdHf9t9qB6vQ.webp](1_-bI7bay3V6hdHf9t9qB6vQ.webp)
+![1_-bI7bay3V6hdHf9t9qB6vQ.png](1_-bI7bay3V6hdHf9t9qB6vQ.png)
 
 > ✅ Answer: 12/1/2021 12:31
 > 
@@ -565,7 +565,7 @@ C:\Windows\inf\setupapi.dev.log
 
 This file contains:
 
-![0_9dPeJpd5630AmvaD.webp](0_9dPeJpd5630AmvaD.webp)
+![0_9dPeJpd5630AmvaD.png](0_9dPeJpd5630AmvaD.png)
 
 - Device ID
 - Serial Number
