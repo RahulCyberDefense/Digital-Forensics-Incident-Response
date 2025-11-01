@@ -32,7 +32,7 @@ In this prompt, I type `regedit.exe` , to open the registry editor window. It wi
 
 Q. What is the short form for HKEY_LOCAL_MACHINE?
 
-![1_5jYRxyllIUh4qStnwX-47g.webp](1_5jYRxyllIUh4qStnwX-47g.webp)
+![1_5jYRxyllIUh4qStnwX-47g.png](1_5jYRxyllIUh4qStnwX-47g.png)
 
 1. Identified the short form of `HKEY_LOCAL_MACHINE` → **HKLM**
 
@@ -42,7 +42,7 @@ Q. What is the short form for HKEY_LOCAL_MACHINE?
 
 **Concept:**
 
-![1_iepWJThrFCyQX4KWsXwqCQ.webp](1_iepWJThrFCyQX4KWsXwqCQ.webp)
+![1_iepWJThrFCyQX4KWsXwqCQ.png](1_iepWJThrFCyQX4KWsXwqCQ.png)
 
 Registry hives can be accessed offline to analyze system state without booting into Windows.
 
