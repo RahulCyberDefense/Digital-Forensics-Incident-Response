@@ -24,7 +24,7 @@ In this hands-on task, I practiced performing a live forensic investigation usin
     C:\Windows\System32\Config
     ```
     
-    ![1_FMk3eEJu0TqDLfmT8OMSVQ.webp](1_FMk3eEJu0TqDLfmT8OMSVQ.webp)
+    ![1_FMk3eEJu0TqDLfmT8OMSVQ.png](1_FMk3eEJu0TqDLfmT8OMSVQ.png)
     
     ![image.png](image%201.png)
     
@@ -42,7 +42,7 @@ The **SAM (Security Accounts Manager)** stores user account information, includi
 
 **Findings:**
 
-![1_LD-JscYSLaRSuTvJ3LHeYw.webp](1_LD-JscYSLaRSuTvJ3LHeYw.webp)
+![1_LD-JscYSLaRSuTvJ3LHeYw.png](1_LD-JscYSLaRSuTvJ3LHeYw.png)
 
 - **Number of user-created accounts:** `3`
 - **User account never logged in:** `thm-user2`
@@ -64,7 +64,7 @@ The **NTUSER.DAT** hive stores user-specific information, including recent files
     C:\Users\<username>\NTUSER.DAT
     ```
     
-    ![1_LlA3RsNjF7uTCNUtmtFebw.webp](1_LlA3RsNjF7uTCNUtmtFebw.webp)
+    ![1_LlA3RsNjF7uTCNUtmtFebw.png](1_LlA3RsNjF7uTCNUtmtFebw.png)
     
 2. Unhid it in File Explorer (as it’s hidden by default).
     
@@ -82,7 +82,7 @@ The **NTUSER.DAT** hive stores user-specific information, including recent files
     NTUSER.DAT\ROOT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
     ```
     
-    ![1_z3H2lSxYPtIE_eMi6Tc_rw.webp](1_z3H2lSxYPtIE_eMi6Tc_rw.webp)
+    ![1_z3H2lSxYPtIE_eMi6Tc_rw.png](1_z3H2lSxYPtIE_eMi6Tc_rw.png)
     
 5. Found the access record for `Changelog.txt`.
     
@@ -105,9 +105,9 @@ Windows tracks executed applications through multiple artifacts — UserAssist, 
 
 - Checked **UserAssist**, **ShimCache**, **AmCache**, and **BAM/DAM**, but none contained relevant data.
     
-    ![1_UOWVlKvSPssg9f_2b6B_Lw.webp](1_UOWVlKvSPssg9f_2b6B_Lw.webp)
+    ![1_UOWVlKvSPssg9f_2b6B_Lw.png](1_UOWVlKvSPssg9f_2b6B_Lw.png)
     
-    ![1_odjxVQAeV6zjYDEEqHfifg.webp](1_odjxVQAeV6zjYDEEqHfifg.webp)
+    ![1_odjxVQAeV6zjYDEEqHfifg.png](1_odjxVQAeV6zjYDEEqHfifg.png)
     
 - Tried searching “Apps” in the RegistryExplorer search bar → found a key named **RecentApps**.
 - Located information about a Python installer execution.
@@ -124,9 +124,9 @@ Windows tracks executed applications through multiple artifacts — UserAssist, 
 
 The registry stores USB device history under **SYSTEM** and **SOFTWARE** hives, useful for identifying external device usage.
 
-![1_6n9tdOIHQlBAGtiGJ5tcJA.webp](1_6n9tdOIHQlBAGtiGJ5tcJA.webp)
+![1_6n9tdOIHQlBAGtiGJ5tcJA.png](1_6n9tdOIHQlBAGtiGJ5tcJA.png)
 
-![1_XHUYpGPl1C-u_mIm4oYO4Q.webp](1_XHUYpGPl1C-u_mIm4oYO4Q.webp)
+![1_XHUYpGPl1C-u_mIm4oYO4Q.png](1_XHUYpGPl1C-u_mIm4oYO4Q.png)
 
 **Process:**
 
@@ -156,11 +156,11 @@ The registry stores USB device history under **SYSTEM** and **SOFTWARE** hives, 
     SYSTEM\CurrentControlSet\Enum\USBSTOR
     ```
     
-    ![1_WhrWQlqd82F-vTLNQdkshQ.webp](1_WhrWQlqd82F-vTLNQdkshQ.webp)
+    ![1_WhrWQlqd82F-vTLNQdkshQ.png](1_WhrWQlqd82F-vTLNQdkshQ.png)
     
     - Extracted timestamp details of device connections.
         
-        ![1_GaEQfsxV8acipwsBVZLa5w.webp](1_GaEQfsxV8acipwsBVZLa5w.webp)
+        ![1_GaEQfsxV8acipwsBVZLa5w.png](1_GaEQfsxV8acipwsBVZLa5w.png)
         
 
 **Finding:**
