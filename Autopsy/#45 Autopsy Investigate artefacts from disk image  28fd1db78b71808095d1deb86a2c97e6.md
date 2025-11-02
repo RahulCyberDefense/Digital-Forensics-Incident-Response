@@ -216,7 +216,7 @@ In the **Views** tree node, files are categorized by File Types: **By Extensio
 
 - Navigated to **Interesting Items → Interesting Files**.
     
-    ![1_19zj-HkPXKaRlXTc6I91lw.webp](1_19zj-HkPXKaRlXTc6I91lw.webp)
+    ![1_19zj-HkPXKaRlXTc6I91lw.png](1_19zj-HkPXKaRlXTc6I91lw.png)
     
 - Found two `.exe` files listed — the main one being `googledrivesync.exe`.
 
@@ -301,7 +301,7 @@ The first thing I did was searching for the version number by utilizing the “K
 - Used **Keyword Search** for `6.2.0.2962`.
 - Located program name under ProductVersion info.
 
-![1_w4NA0Dl_rpLKLW07nfANqg.webp](1_w4NA0Dl_rpLKLW07nfANqg.webp)
+![1_w4NA0Dl_rpLKLW07nfANqg.png](1_w4NA0Dl_rpLKLW07nfANqg.png)
 
 **Answer:** `Eraser`
 
@@ -309,7 +309,7 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Searched “Password hint” in the Keyword Search section.
     
-    ![1_vGPu6F7oH3D9IBtIS8swKA.webp](1_vGPu6F7oH3D9IBtIS8swKA.webp)
+    ![1_vGPu6F7oH3D9IBtIS8swKA.png](1_vGPu6F7oH3D9IBtIS8swKA.png)
     
 
 **Answer:** `IAMAN`
@@ -319,11 +319,11 @@ The first thing I did was searching for the version number by utilizing the “K
 - Found through keyword search “SECRET”.
 - I ended up with some results with “Secured Network Drive” in their keyword.
     
-    ![1_QAFc9lkEmzcUwZMZdlgcUQ.webp](1_QAFc9lkEmzcUwZMZdlgcUQ.webp)
+    ![1_QAFc9lkEmzcUwZMZdlgcUQ.png](1_QAFc9lkEmzcUwZMZdlgcUQ.png)
     
 - Observed mapped path showing IP address `\\10.11.11.128\Secured_DRIVESecret...`
     
-    ![1_rHlUPMV5qBzBVvS5zqpyqQ.webp](1_rHlUPMV5qBzBVvS5zqpyqQ.webp)
+    ![1_rHlUPMV5qBzBVvS5zqpyqQ.png](1_rHlUPMV5qBzBVvS5zqpyqQ.png)
     
 
 **Answer:** `10.11.11.128`
@@ -332,10 +332,10 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Opened **Web Search** results and checked which term appeared most frequently.
     
-    ![1_7QkrXdnG9YGDvmUMxoljHQ.webp](1_7QkrXdnG9YGDvmUMxoljHQ.webp)
+    ![1_7QkrXdnG9YGDvmUMxoljHQ.png](1_7QkrXdnG9YGDvmUMxoljHQ.png)
     
 
-![1_b2wz-jtIzutz-ep7w-WdqA.webp](1_b2wz-jtIzutz-ep7w-WdqA.webp)
+![1_b2wz-jtIzutz-ep7w-WdqA.png](1_b2wz-jtIzutz-ep7w-WdqA.png)
 
 **Answer:** `information leakage cases`
 
@@ -343,7 +343,7 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Checked the **Date Accessed** column in Web Search.
     
-    ![1_TKckkWN8IDSHjPfCCL4CRg.webp](1_TKckkWN8IDSHjPfCCL4CRg.webp)
+    ![1_TKckkWN8IDSHjPfCCL4CRg.png](1_TKckkWN8IDSHjPfCCL4CRg.png)
     
 
 **Answer:** `anti-forensic tools`
@@ -352,11 +352,11 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Went to **Interesting Files** under **Interesting Items**.
     
-    ![1_7tdvk5_dKFbmJYbkY0N83w.webp](1_7tdvk5_dKFbmJYbkY0N83w.webp)
+    ![1_7tdvk5_dKFbmJYbkY0N83w.png](1_7tdvk5_dKFbmJYbkY0N83w.png)
     
 - Copied the hash from the file details.
     
-    ![1_HS8ui5dMknWKvH5zRiqPKA.webp](1_HS8ui5dMknWKvH5zRiqPKA.webp)
+    ![1_HS8ui5dMknWKvH5zRiqPKA.png](1_HS8ui5dMknWKvH5zRiqPKA.png)
     
 
 **Answer:** `fe18b02e890f7a789c576be8abccdc99`
@@ -367,11 +367,11 @@ The first thing I did was searching for the version number by utilizing the “K
     
     `Data Sources → sample-case.dd → vol3 → Users → informant → AppData → Roaming → Microsoft → Sticky Notes`
     
-    ![1_dQnOWIalxPOZd_t-e9tUGA.webp](1_dQnOWIalxPOZd_t-e9tUGA.webp)
+    ![1_dQnOWIalxPOZd_t-e9tUGA.png](1_dQnOWIalxPOZd_t-e9tUGA.png)
     
 - Opened `StickyNotes.snt` file to find message.
     
-    ![1_r1SVaKMzS89lvg-ShgVc1Q.webp](1_r1SVaKMzS89lvg-ShgVc1Q.webp)
+    ![1_r1SVaKMzS89lvg-ShgVc1Q.png](1_r1SVaKMzS89lvg-ShgVc1Q.png)
     
 
 **Answer:** `Tomorrow… Everything will be OK…`
@@ -384,17 +384,17 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Used the **Timeline View**, switched to **Details Mode**.
     
-    ![1_8_urIt75Yq7xloZEikVKqw.webp](1_8_urIt75Yq7xloZEikVKqw.webp)
+    ![1_8_urIt75Yq7xloZEikVKqw.png](1_8_urIt75Yq7xloZEikVKqw.png)
     
-    ![1_8vAVf3DWTRUCZdwMoY6hhw.webp](1_8vAVf3DWTRUCZdwMoY6hhw.webp)
+    ![1_8vAVf3DWTRUCZdwMoY6hhw.png](1_8vAVf3DWTRUCZdwMoY6hhw.png)
     
 - I clicked on the clock icon to adjust the date I want. It may take a while to set it properly. It took me a few tries.
     
-    ![1_jwjNkfyNvqMWDvWNXrnWSQ.webp](1_jwjNkfyNvqMWDvWNXrnWSQ.webp)
+    ![1_jwjNkfyNvqMWDvWNXrnWSQ.png](1_jwjNkfyNvqMWDvWNXrnWSQ.png)
     
 - After that, I hovered over the number 46 because it looks like there were 46 events that happened on January 12, 2015. I hovered over it until the information box came out to confirm the date.
     
-    ![1_V4MeWu-dgEC0yodlwq8-LQ.webp](1_V4MeWu-dgEC0yodlwq8-LQ.webp)
+    ![1_V4MeWu-dgEC0yodlwq8-LQ.png](1_V4MeWu-dgEC0yodlwq8-LQ.png)
     
 
 **Answer:** `46`
@@ -403,25 +403,25 @@ The first thing I did was searching for the version number by utilizing the “K
 
 - Changed view back to **Counts**, applied linear scaling, and filtered only File System events.
     
-    ![1_7oKmA0ezo0cxeOF5Hh4y8Q.webp](1_7oKmA0ezo0cxeOF5Hh4y8Q.webp)
+    ![1_7oKmA0ezo0cxeOF5Hh4y8Q.png](1_7oKmA0ezo0cxeOF5Hh4y8Q.png)
     
-    ![1_tR18DXZK6psyJ4noBCVAqA.webp](1_tR18DXZK6psyJ4noBCVAqA.webp)
+    ![1_tR18DXZK6psyJ4noBCVAqA.png](1_tR18DXZK6psyJ4noBCVAqA.png)
     
 - In the middle, I changed to show the entire timeline.
     
-    ![1_Z3JFdFxXNb_rN2oqARYDyw.webp](1_Z3JFdFxXNb_rN2oqARYDyw.webp)
+    ![1_Z3JFdFxXNb_rN2oqARYDyw.png](1_Z3JFdFxXNb_rN2oqARYDyw.png)
     
 - Observed which bar was tallest and zoomed in.
     
-    ![1_UOiynrBWNjhG8bLFzzwhGA.webp](1_UOiynrBWNjhG8bLFzzwhGA.webp)
+    ![1_UOiynrBWNjhG8bLFzzwhGA.png](1_UOiynrBWNjhG8bLFzzwhGA.png)
     
 - Right click the bar graph and select “Zoom into Time Range.”
     
-    ![1_JhXxB9CWjTve9iT1tXOgjQ.webp](1_JhXxB9CWjTve9iT1tXOgjQ.webp)
+    ![1_JhXxB9CWjTve9iT1tXOgjQ.png](1_JhXxB9CWjTve9iT1tXOgjQ.png)
     
 - Then I just did it again.
     
-    ![1_6nHU_Iv71fu_LogRboeUwQ.webp](1_6nHU_Iv71fu_LogRboeUwQ.webp)
+    ![1_6nHU_Iv71fu_LogRboeUwQ.png](1_6nHU_Iv71fu_LogRboeUwQ.png)
     
 
 **Answer:** `March 25, 2015`
