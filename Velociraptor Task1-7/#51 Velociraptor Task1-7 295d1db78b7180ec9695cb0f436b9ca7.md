@@ -266,7 +266,7 @@ I previously ran `whoami` in the Shell and want to know which column header cont
 
 I checked the Collected entry corresponding to my `whoami` execution and observed the results table.
 
-![1_rEjUATMAoZp59VAuCHDEww.webp](1_rEjUATMAoZp59VAuCHDEww.webp)
+![1_rEjUATMAoZp59VAuCHDEww.png](1_rEjUATMAoZp59VAuCHDEww.png)
 
 **Result:** The output column header showing the command result is named `stdout`. My `whoami` output was `nt authority\system`.
 
@@ -379,7 +379,7 @@ To understand what the **Ubuntu parameter** was doing in the `Windows.KapeFiles.
 
 When I checked the parameter description, it clearly stated that it was meant to look for **Ubuntu on Windows Subsystem for Linux (WSL)**.
 
-![1_xOHMBxMmSDQVjl_JnwkDJA.webp](1_xOHMBxMmSDQVjl_JnwkDJA.webp)
+![1_xOHMBxMmSDQVjl_JnwkDJA.png](1_xOHMBxMmSDQVjl_JnwkDJA.png)
 
 **Answer — 1:** `Ubuntu on Windows Subsystem for Linux`
 
@@ -389,7 +389,7 @@ When I checked the parameter description, it clearly stated that it was meant to
 
 Next, I reviewed the output of the new collection I had just generated. I opened the **Collection** screen and clicked on the latest entry to see the number of uploaded files.
 
-![1_hf8NWasQVzuceRF0w7a3jg.webp](1_hf8NWasQVzuceRF0w7a3jg.webp)
+![1_hf8NWasQVzuceRF0w7a3jg.png](1_hf8NWasQVzuceRF0w7a3jg.png)
 
 **Answer — 2:** 19
 
@@ -484,17 +484,17 @@ After navigating and refreshing properly, I found the file named `desktop.ini` i
 
 1. In the VFS I navigated to `Users -> Administrators -> Documents`.
     
-    ![1_g34ug7z_773XWrAaGeMxGw.webp](1_g34ug7z_773XWrAaGeMxGw.webp)
+    ![1_g34ug7z_773XWrAaGeMxGw.png](1_g34ug7z_773XWrAaGeMxGw.png)
     
 2. I refreshed each level so the files would appear.
 3. I saw a file called `flag.txt`, but the **Textview** option was greyed out (because the artifact hadn’t been collected locally yet).
 4. I used the **Collect from the client** control at the bottom of the UI to fetch the file.
     
-    ![1_X08WFZkCdWb1xqQMzj7_xw.webp](1_X08WFZkCdWb1xqQMzj7_xw.webp)
+    ![1_X08WFZkCdWb1xqQMzj7_xw.png](1_X08WFZkCdWb1xqQMzj7_xw.png)
     
 5. After collection completed, the Textview became active — I opened it and read the contents.
     
-    ![1_Itx_DD7z-4pig7cNr2XCbQ.webp](1_Itx_DD7z-4pig7cNr2XCbQ.webp)
+    ![1_Itx_DD7z-4pig7cNr2XCbQ.png](1_Itx_DD7z-4pig7cNr2XCbQ.png)
     
 
 **Answer / Flag:** `THM{VkVMT0NJUkFQVE9S}`
@@ -567,7 +567,7 @@ https://docs.velociraptor.app/docs/vql/fundamentals/
     
     I figured this had to be something basic from VQL syntax, so I checked the documentation. 
     
-    ![1__-l81fserZag7v2cAru-Cg.webp](1__-l81fserZag7v2cAru-Cg.webp)
+    ![1__-l81fserZag7v2cAru-Cg.png](1__-l81fserZag7v2cAru-Cg.png)
     
     There, I saw that after the `SELECT` keyword, we specify what data or fields we want to retrieve — known as **Column Selectors**.
     
@@ -587,7 +587,7 @@ https://docs.velociraptor.app/docs/vql/fundamentals/
     
 4. **What can you type in the Notepad interface to view a list of possible completions for a keyword?**
     
-    ![1_VeJlkAAfY3go9l7EUfbBHg.webp](1_VeJlkAAfY3go9l7EUfbBHg.webp)
+    ![1_VeJlkAAfY3go9l7EUfbBHg.png](1_VeJlkAAfY3go9l7EUfbBHg.png)
     
     I checked the documentation under the Notebooks section. It mentioned that to bring up the autocomplete suggestions for a keyword, you just type a **question mark (?)**.
     
@@ -597,7 +597,7 @@ https://docs.velociraptor.app/docs/vql/fundamentals/
     
     Documentation page in the hint: https://docs.velociraptor.app/docs/vql/extending_vql/
     
-    ![1_Td94l2y6SU5bcobWo9jtKg.webp](1_Td94l2y6SU5bcobWo9jtKg.webp)
+    ![1_Td94l2y6SU5bcobWo9jtKg.png](1_Td94l2y6SU5bcobWo9jtKg.png)
     
     This documentation page mentions the plugin used to execute system commands — **execve()**, which can also handle PowerShell code.
     
